@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700')
 
-.bg-color-name-slogan {
-    background-color: #10a84a
-}
+/* ------------------------heading1 */
 
 header {
     margin:0;
+}
+
+/* colours */
+
+.bg-color-name-slogan {
+    background-color: #7391b3
+}
+
+/* -------------------------heading2 */
+
+.heading {
+    margin-left: 50px;
 }
 
 .logo {
@@ -17,4 +27,22 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.slogan {
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+
 }
