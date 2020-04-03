@@ -9,7 +9,28 @@ header {
 /* colours */
 
 .bg-color-name-slogan {
-    background-color: #7391b3
+    background-color: #7391b3;
+    color: #fff;
+}
+
+.ui-menu-color-home {
+    background-color: #a6c9f1; 
+    color: #fff
+}
+
+.ui-menu-color-message-board {
+    background-color: #a6c9f1; 
+    color: #fff
+}
+
+.ui-menu-color-FAQs {
+    background-color: #a6c9f1; 
+    color: #fff
+}
+
+.ui-menu-color-contact {
+    background-color: #a6c9f1; 
+    color: #fff
 }
 
 /* -------------------------heading2 */
