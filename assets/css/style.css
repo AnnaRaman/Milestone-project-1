@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700')
+
+/* ------------------------heading1 */
+
+header {
+    margin:0;
+}
+
+/* colours */
+
+.bg-color-name-slogan {
+    background-color: #7391b3;
+    color: #fff;
+}
+
+.ui-menu-color-home {
+    background-color: #a6c9f1; 
+    color: #fff
+}
+
+.ui-menu-color-message-board {
+    background-color: #a6c9f1; 
+    color: #fff
+}
+
+.ui-menu-color-FAQs {
+    background-color: #a6c9f1; 
+    color: #fff
+}
+
+.ui-menu-color-contact {
+    background-color: #a6c9f1; 
+    color: #fff
+}
+
+/* -------------------------heading2 */
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/QCimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.slogan {
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+.outline {
+    font-family: "Lato", sans-serif;
+    font-weight: 90px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #fff;
+}
