@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700')
+@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Amatic+SC:100,200')
+
 
 /* ------------------------heading1 */
 
@@ -51,7 +52,7 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
@@ -74,4 +75,17 @@ header {
     margin-top: 20px;
     margin-bottom: 80px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
