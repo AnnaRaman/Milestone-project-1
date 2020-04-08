@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Amatic+SC:100,200')
+@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700')
 
 
 /* ------------------------heading1 */
@@ -14,6 +14,10 @@ header {
     color: #fff;
 }
 
+.bg-color-mind-body-general {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #a6c9f1; 
     color: #fff
@@ -26,7 +30,7 @@ header {
 
 .ui-menu-color-how-can-i-help {
     background-color: #a6c9f1; 
-    color: #fff
+    color: #fff;
 }
 
 .ui-menu-color-contact {
@@ -51,6 +55,27 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /* -------------------------heading2 */
