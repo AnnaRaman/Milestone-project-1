@@ -67,6 +67,10 @@ h4 {
     display: table;
 }
 
+.row {
+    margin-right: 0px;
+}
+
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
@@ -239,4 +243,14 @@ footer {
 
 .mind-body-heading {
     margin-bottom: 15px;
+}
+
+/* ------------------------Mind, Body, How can I help? */
+
+.mind-body-how-icon {
+    color: #a6c9f1;
+}
+
+.how-can-i-help {
+    align-content: center;
 }
