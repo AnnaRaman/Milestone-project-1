@@ -247,7 +247,11 @@ footer {
 
 /* ------------------------Back to top button*/
 
-
+.sticky-top{
+    position: sticky;
+    bottom: 0;
+    float: right;
+}
 
 /* ------------------------Mind, Body, How can I help? */
 
