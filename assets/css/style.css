@@ -99,11 +99,11 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #hero-image {
-    background: url("../images/housing.jpg");
+    background: url("../images/flats.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,6 +244,10 @@ footer {
 .mind-body-heading {
     margin-bottom: 15px;
 }
+
+/* ------------------------Back to top button*/
+
+
 
 /* ------------------------Mind, Body, How can I help? */
 
