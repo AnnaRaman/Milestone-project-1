@@ -6,49 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Quarantined Community | Keeping us all productive during Isolation</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Quarantined Community</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="message-board.html">Message Board</a>
+      <a class="nav-item nav-link" href="faqs.html">FAQs</a>
+      <a class="nav-item nav-link" href="contact.html">Contact</a>
+      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+    </div>
+  </div>
+</nav>
     <header> 
-    <button class="btn btn-light sticky-top" ><a href="#logo">Back to top!</a></button>
           <a href="index.html" class="col-md-4">
           <h2 id="logo"> Quarantined Community</h2>
           </a>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="message-board.html">Message Board</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="faqs.html">FAQs</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+
     <section id="hero-outer">
           <div id="hero-image">
              <div class="bg-color-name-slogan">
@@ -76,7 +60,9 @@
                               <i class="mind-body-how-icon fa fa-lightbulb-o" aria-hidden="true"></i>
                           </div>
                           <div>
+                            <a href="#mind-section">
                               <h4 class="mind-body-heading uppercase">Mind</h4>
+                            </a>
                               <p>
                                   It's v v v important to keep your mind busy and proactive, whether thats WFH, learning new skills and touching base with yourself through meditating. The outcome of all of these = retained sanity!
                               </p>
@@ -87,7 +73,9 @@
                               <i class="mind-body-how-icon fa fa-heartbeat" aria-hidden="true"></i>
                           </div>
                           <div>
+                            <a href="#body-section">
                               <h4 class="mind-body-heading uppercase">Body</h4>
+                            </a>
                               <p>
                                   It's v v v important to keep your body busy and proactive, whether thats eating healthily to boost your immune system, or, keeping your body moving through regular exercise.
                               </p>
@@ -98,7 +86,9 @@
                               <i class="mind-body-how-icon fa fa-users" aria-hidden="true"></i>
                           </div>
                           <div class="how-can-i-help" center="align">
+                            <a href="#how-section">
                               <h4 class="mind-body-heading uppercase">How can I help?</h4>
+                            </a>
                               <p>
                                   Although its important to keep ourselves entertained, its also important to ensure the safety of ourselves and others. Here you will find what you can do to stay safe, and what you can do to help others.
                               </p>
@@ -110,11 +100,9 @@
           </div>
         <section>
         <button class="btn btn-light sticky-top" ><a href="#logo">Back to top!</a></button>
-           
-           <div class="row">
-                      <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                           <div>  
-                           <h5>MIND</h5>
+           <article class="container">
+              <section class="mind-section">
+                           <h5 id="mind-section">MIND</h5>
                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus in hendrerit gravida rutrum quisque non tellus orci. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Mattis rhoncus urna neque viverra justo nec ultrices. Eget sit amet tellus cras adipiscing enim eu turpis egestas. Quis varius quam quisque id diam. Eget dolor morbi non arcu risus quis. Integer malesuada nunc vel risus commodo viverra maecenas. Elit sed vulputate mi sit amet mauris commodo. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Sit amet dictum sit amet. Ut eu sem integer vitae. Nisl tincidunt eget nullam non nisi est sit amet. Mattis enim ut tellus elementum sagittis vitae et leo. Quis ipsum suspendisse ultrices gravida dictum fusce.
 
 At tempor commodo ullamcorper a lacus vestibulum sed arcu. Consectetur lorem donec massa sapien. Tortor id aliquet lectus proin nibh nisl condimentum id venenatis. Id aliquet risus feugiat in ante metus dictum at tempor. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. In cursus turpis massa tincidunt dui ut ornare. Eu nisl nunc mi ipsum. Ipsum a arcu cursus vitae congue mauris rhoncus aenean. Nisl pretium fusce id velit. Purus ut faucibus pulvinar elementum integer. Rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras. Varius vel pharetra vel turpis nunc eget lorem dolor sed. Sed id semper risus in hendrerit gravida. Arcu non sodales neque sodales ut. Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat. Pulvinar mattis nunc sed blandit libero volutpat. Erat imperdiet sed euismod nisi porta lorem mollis. Vestibulum morbi blandit cursus risus at ultrices mi tempus. Diam vel quam elementum pulvinar etiam non quam lacus suspendisse. Enim sit amet venenatis urna cursus.
@@ -145,17 +133,20 @@ Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Lectus urna duis c
 
 Magna fringilla urna porttitor rhoncus dolor purus non enim praesent. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Nullam eget felis eget nunc. Ac tortor vitae purus faucibus ornare suspendisse sed nisi. Orci eu lobortis elementum nibh. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Pretium aenean pharetra magna ac placerat vestibulum lectus. Tellus rutrum tellus pellentesque eu tincidunt tortor. Adipiscing enim eu turpis egestas pretium aenean. Aliquet bibendum enim facilisis gravida neque. Nunc lobortis mattis aliquam faucibus. Pretium quam vulputate dignissim suspendisse in est. Tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Tortor posuere ac ut consequat semper viverra nam. Volutpat diam ut venenatis tellus in metus vulputate eu. Pellentesque dignissim enim sit amet venenatis urna. Libero nunc consequat interdum varius sit amet mattis. Tempor orci dapibus ultrices in iaculis nunc sed augue. Amet consectetur adipiscing elit pellentesque habitant. Quam nulla porttitor massa id neque.
                            </p>
-                          </div>       
-                      </div>  
-                      <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                           BODY 
-                      </div>
-                      <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-                           HOW CAN I HELP
-                      </div>
-           </div>
-         
-        </section>
+              </section>     
+              <hr>
+
+              <section class="body-section" >
+                          <h5 id="body-section"> BODY </h5>
+              </section>
+              <hr>
+
+              <section class="how-section" >
+                          <h5 id="how-section">  HOW CAN I HELP </h5>
+              </section>
+              <hr>
+           </article>
+           </section>
    <footer class="container-fluid"> 
         <div class="row">
               <div class="col-sm-4">
