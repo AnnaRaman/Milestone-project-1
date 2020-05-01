@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700')
+@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Nanum+Gothic:100,200,300,400,500,600,700')
+
 
 
 /* ------------------------heading1 */
@@ -8,7 +9,6 @@ header {
 }
 
 /* colours */
-
 
 .bg-color-name-slogan {
     background-color: rgba(113,145,179,0.7);
@@ -53,11 +53,7 @@ h4 {
     text-transform: uppercase;
 }
 
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
+
 
 .inline-block {
     display: inline-block
@@ -147,9 +143,9 @@ h2 {
 
 .name {
     font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-size: 40px;
-    margin-top: 50px;
+    font-weight: 75;
+    font-size: 30px;
+    margin-top: 35px;
     padding-left: 10px;
     color: #fff;
 }
@@ -157,9 +153,9 @@ h2 {
 .slogan {
     font-family: "Lato", sans-serif;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding-left: 10px;
     color: #fff;
 }
@@ -167,7 +163,7 @@ h2 {
 .outline {
     font-family: "Lato", sans-serif;
     font-weight: 90;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
     margin-bottom: 30px;
     padding-left: 10px;
@@ -236,13 +232,21 @@ h2 {
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    max-height: 50px;
     margin:0;
+    text-align: center;
+    
 }
 
+.footer {
+    color: #fafafa;
+    padding-bottom: 10px;
+    
+}
 
-
-
+.footer-text {
+    font-size: 10px;
+}
 
 /* ------------------------Back to top button*/
 
@@ -258,7 +262,21 @@ h4 {
     font-family: "Lato", sans-serif;
 }
 
-h5 {
+.how-section {
+    color: #5e696e; 
+    font-family: "Lato", sans-serif;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.mind-section {
+    color: #5e696e; 
+    font-family: "Lato", sans-serif;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.body-section {
     color: #5e696e; 
     font-family: "Lato", sans-serif;
     padding-bottom: 20px;
@@ -266,8 +284,18 @@ h5 {
 }
 
 h6 {
-    font-family: "Exo", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid;
+    border-bottom-color: rgba(214, 127, 87, 0.34);
+
+}
+
+.outline-text {
+    font-family: "Nanum Gothic", sans-serif;
+    text-align: center;
 }
 
 hr{
@@ -294,18 +322,38 @@ hr{
     align-content: center;
 }
 
+.section-content {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+
+#think-you-can-help {
+    background-color: rgba(250, 255, 158, 0.51);
+   margin-top: 15px;
+   text-align: center;
+}
+
+
 /* -------------------------Message Board */
 
 .messagebox {
-    border: 3px solid #a6c9f1;
-    background-color: #e3e3e3;
-    border-radius: 8px;
+    border: 3px solid #919aa5;
+    background-color: #f5f3f3;
+    border-radius: 3px;
     padding: 10px;
     margin: 10px;
 }
 
 .username {
     font-weight: bold;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+}
+
+.comment {
+    font-family: "Nanum Gothic", sans-serif;
+
 }
 
 .time {
