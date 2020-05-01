@@ -261,6 +261,13 @@ h4 {
 h5 {
     color: #5e696e; 
     font-family: "Lato", sans-serif;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+h6 {
+    font-family: "Exo", sans-serif;
+    font-weight: bold;
 }
 
 hr{
@@ -275,6 +282,11 @@ hr{
 
 .mind-body-heading {
     margin-bottom: 15px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 5px;
 }
 
 
@@ -304,9 +316,4 @@ hr{
  #video1 {
      width: 40%;
      margin: 10%;
- }
-
- #video2 {
-     width: 50%;
-   
  }
