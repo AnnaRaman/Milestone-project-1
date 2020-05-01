@@ -103,7 +103,7 @@ h2 {
 }
 
 #hero-image {
-    background: url("../images/flats.jpg");
+    background: url("../images/Canva.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -234,16 +234,9 @@ footer {
     margin:0;
 }
 
-/* -------------------------Footer */
 
-.mind-body-general-icon {
-    font-size: 20px;
-    color: #a6c9f1
-}
 
-.mind-body-heading {
-    margin-bottom: 15px;
-}
+
 
 /* ------------------------Back to top button*/
 
@@ -255,9 +248,18 @@ footer {
 
 /* ------------------------Mind, Body, How can I help? */
 
-.mind-body-how-icon {
-    color: #a6c9f1;
+h5 {
+    color: #5e696e; 
 }
+
+.mind-body-how-icon{
+    color: #d67f57a2;
+}
+
+.mind-body-heading {
+    margin-bottom: 15px;
+}
+
 
 .how-can-i-help {
     align-content: center;
