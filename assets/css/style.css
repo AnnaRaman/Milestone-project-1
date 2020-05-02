@@ -83,7 +83,7 @@ h4 {
 /* -------------------------heading2 */
 
 .navbar.navbar-expand-lg.navbar-light.bg-light{
-    width: 32%;
+    width: 25%;
     float: right;
     
 }
@@ -244,7 +244,7 @@ footer {
 }
 
 .footer-title {
-    font-size: 6px;
+    font-size: 10px;
 }
 
 
@@ -400,3 +400,53 @@ hr{
      padding-top: 20px;
     padding-bottom: 20px;
  }
+
+
+/* -------------------------contact */
+#useful-links {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #4f647d;
+    margin-bottom: 15px;
+}
+
+.coronavirus-general {
+    border-style: solid;
+    border-color: #a6c9f1;
+    border-radius: 4px;
+    border-width: 2px;
+}
+
+#coronavirus-heading {
+    font-family: "Lato", sans-serif;
+    font-weight: 80%;
+    text-align: center;
+}
+
+.mental-health-line {
+    border-style: solid;
+    border-color: #a6c9f1;
+    border-radius: 4px;
+    border-width: 2px;
+}
+
+#health-line-heading {
+    font-family: "Lato", sans-serif;
+    font-weight: 80%;
+    text-align: center;
+}
+
+.volunteer {
+    border-style: solid;
+    border-color: #a6c9f1;
+    border-radius: 4px;
+    border-width: 2px;
+}
+
+#volunteer-heading {
+    font-family: "Lato", sans-serif;
+    font-weight: 80%;
+    text-align: center;
+}
