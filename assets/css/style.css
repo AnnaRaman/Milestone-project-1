@@ -361,7 +361,7 @@ hr{
 }
 
 /* -------------------------FAQs */
- #video1 {
-     width: 40%;
-     margin: 10%;
+ #video-mind-active {
+     padding-top: 20px;
+    padding-bottom: 20px;
  }
