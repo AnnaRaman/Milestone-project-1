@@ -416,7 +416,9 @@ hr{
     border-style: solid;
     border-color: #a6c9f1;
     border-radius: 4px;
-    border-width: 2px;
+    border-width: 1px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px #4f647d;
 }
 
 #coronavirus-heading {
@@ -429,7 +431,9 @@ hr{
     border-style: solid;
     border-color: #a6c9f1;
     border-radius: 4px;
-    border-width: 2px;
+    border-width: 1px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px #4f647d;
 }
 
 #health-line-heading {
@@ -442,11 +446,17 @@ hr{
     border-style: solid;
     border-color: #a6c9f1;
     border-radius: 4px;
-    border-width: 2px;
+    border-width: 1px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px #4f647d;
 }
 
 #volunteer-heading {
     font-family: "Lato", sans-serif;
     font-weight: 80%;
     text-align: center;
+}
+
+.link-info {
+    padding-bottom: 40px;
 }
