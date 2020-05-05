@@ -108,8 +108,7 @@ h2 {
     background: url("../images/Canva.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 600px;
+    background-size: cover; 
     width: 100%;
     animation-name: hero-zoom; 
     animation-duration: 5s;
@@ -117,7 +116,6 @@ h2 {
 }
 
 #hero-outer {
-    min-height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -132,13 +130,7 @@ h2 {
     }
 }
 
-.bg-color-name-slogan {
-    width: 900px;
-    height: 300px;
-    bottom: 60px;
-    right: 100px;
 
-}
 
 .name {
     font-family: "Lato", sans-serif;
