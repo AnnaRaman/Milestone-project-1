@@ -13,38 +13,43 @@
 
 <body>
 	<header>
-		<a href="index.html" class="col-md-4">
+       <div class="row">
+       <div class="col-xs-0 col-sm-1 col-md-3 col-lg-6">
+		<a href="index.html" aria-label="home page">
 			<h2 id="logo"> Quarantined Community</h2>
 		</a>
+       </div>
+       </div>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" tabindex="1" accesskey="1">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" tabindex="1" accesskey="n">
     <span class="navbar-toggler-icon"></span>
   </button>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home</a>
+						<a class="nav-link" href="index.html" aria-label="home page">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="message-board.html">Message
-							Board<span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="message-board.html" aria-label="message board page">Message Board</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="faqs.html">FAQs</a>
+						<a class="nav-link" href="faqs.html" aria-label="faqs page">FAQs</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
+						<a class="nav-link" href="contact.html" aria-label="contact page" >Contact<span class="sr-only">(current)</span></a>
 					</li>
 				</ul>
 			</div>
 		</nav>
+
+
 		<section id="hero-outer">
 			<div id="hero-image">
-				<div class="bg-color-name-slogan">
-					<div class="col heading">
-						<h1 class="name">Quarantined Community</h1>
-						<h2 class="slogan">| Keeping us all productive during Isolation</h2>
+				<div class="row justify-content-end">
+					<div class="col-10 col-xs-0 col-sm-0 col-md-6 col-lg-6 bg-color-name-slogan align-self-end">
+						<h2 class="name">Quarantined Community</h2>
+						<h3 class="slogan">| Keeping us all productive during Isolation</h3>
 						<p class="outline">Coronavirus is undoubtedbly effecting families, businesses and general
 							community, through it's seemingly unstoppable contagion. So it's time to come together.
 							Let's not feel isolated during isolation. Let's quarantine together and rebuild our sense of
@@ -52,6 +57,7 @@
 					</div>
 				</div>
 			</div>
+
 		</section>
 	</header>
 
@@ -97,10 +103,10 @@
 				<div class="col">
 					<div class="form-group" id="comment-box">
 						<label for="comment">Do you have a question or a recommendation? Post your comment here! :</label>
-						<textarea class="form-control" rows="6" id="comment"></textarea>
+						<textarea class="form-control" rows="6" id="comment" accesskey="c" tabindex="2"></textarea>
 
 						<br>
-						<button type="button" class="btn btn-success">Send!</button>
+						<button type="button" class="btn btn-success" tabindex="3" accesskey="s">Send!</button>
 					</div>
 				</div>
 			</div>
