@@ -101,7 +101,8 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 30px;
+    font-weight: 75;
+    padding-left: 30px;
 }
 
 #hero-image {
@@ -121,6 +122,10 @@ h2 {
     position: relative;
 }
 
+.bg-color-name-slogan {
+    padding: 30px;
+}
+
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -130,12 +135,19 @@ h2 {
     }
 }
 
+@media (max-width: @screen-xs) {
+    h2 {font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    h2{font-size: 14px;}
+}
 
 
 .name {
     font-family: "Lato", sans-serif;
     font-weight: 75;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 35px;
     padding-left: 10px;
     color: #fff;
