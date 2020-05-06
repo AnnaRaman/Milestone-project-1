@@ -124,6 +124,8 @@ h2 {
 
 .bg-color-name-slogan {
     padding: 30px;
+    font-size: 10vw;
+
 }
 
 @keyframes hero-zoom {
@@ -135,14 +137,9 @@ h2 {
     }
 }
 
-@media (max-width: @screen-xs) {
-    h2 {font-size: 0.625em;}
+h2 {
+    font-size: 2vw;
 }
-
-@media (max-width: @screen-sm) {
-    h2{font-size: 0.875em;}
-}
-
 
 .name {
     font-family: "Lato", sans-serif;
@@ -258,7 +255,6 @@ footer {
 .sticky-top{
     position: sticky;
     bottom: 0;
-    float: right;
 }
 
 /* ------------------------Mind, Body, How can I help? */
