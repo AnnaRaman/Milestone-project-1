@@ -70,7 +70,6 @@ h4 {
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
-    float: none;
 }
 
 .section-heading {
@@ -84,7 +83,6 @@ h4 {
 
 .navbar.navbar-expand-lg.navbar-light.bg-light{
     width: 25%;
-    float: right;
     
 }
 
