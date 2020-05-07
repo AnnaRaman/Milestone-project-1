@@ -64,20 +64,14 @@ h4 {
 }
 
 .row {
-    margin-right: 0px;
+    margin-right: 0rem;
 }
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 	1.875rem 1.875rem;
 }
 
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
 
 /* -------------------------heading2 */
 
@@ -86,21 +80,17 @@ h4 {
     
 }
 
-.heading {
-    margin-left: 50px;
-}
 
 h2 {
     font-family: "Lato";
     color: #777777;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     text-transform: uppercase;
 }
 
 #logo {
-    float: left;
     font-weight: 75;
-    padding-left: 30px;
+    padding-left: 1.875rem;
 }
 
 #hero-image {
@@ -121,7 +111,7 @@ h2 {
 }
 
 .bg-color-name-slogan {
-    padding: 30px;
+    padding: 1.875rem;
     font-size: 10vw;
 
 }
@@ -143,18 +133,18 @@ h2 {
     font-family: "Lato", sans-serif;
     font-weight: 75;
     font-size: 1.5625rem;
-    margin-top: 35px;
-    padding-left: 10px;
+    margin-top: 2.1875rem;
+    padding-left: 0.625rem;
     color: #fff;
 }
 
 .slogan {
     font-family: "Lato", sans-serif;
     font-weight: 200;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding-left: 10px;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.875rem;
+    padding-left: 0.625rem;
     color: #fff;
 }
 
@@ -162,11 +152,11 @@ h2 {
     font-family: "Lato", sans-serif;
     font-weight: 90;
     font-size: 1.125rem;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 40px;
-    padding-bottom: 40px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.875rem;
+    padding-left: 0.625rem;
+    padding-right: 2.5rem;
+    padding-bottom: 2.5rem;
     color: #fff;
 }
 
@@ -188,7 +178,7 @@ h2 {
 }
 
 .menuitem {
-    height: 120px;
+    height: 7.5rem;
     text-align:center;
     padding:0;
 }
@@ -197,11 +187,11 @@ h2 {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 120px;
+    height: 7.5rem;
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 1.375rem;
     display: block;
     color: #fafafa;
     font-size: 1.625rem;
@@ -210,19 +200,19 @@ h2 {
 .menuitem span {
     display: block;
     width: 100%;
-    padding-top: 5px;
+    padding-top: 0.3125rem;
     text-align: center;
     text-transform: uppercase;
     font-size: 0.875rem;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 /* -------------------------hover.css */
 
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 7.5rem;
 }
 
 /* -------------------------Footer */
@@ -230,19 +220,21 @@ h2 {
 footer {
     background-color: #525252;
     color: #fafafa;
-    max-height: 50px;
+    max-height: 3.125rem;
     margin:0;
     text-align: center;
 }
 
 .footer {
     color: #fafafa;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
+    text-align: center;
     
 }
 
 .footer-title {
     font-size: 0.625rem;
+    text-align: center;
 }
 
 
@@ -262,29 +254,29 @@ h4 {
 }
 
 .mind-title {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top 1.875rem;
+    padding-bottom: 1.875rem;
 }
 
 .body-title {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
 }
 
 .how-title {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
 }
 
 .section-sub-header{
-    padding-top: 15px;
+    padding-top: 0.9375rem;
 }
 
 .how-section {
     color: #5e696e; 
     font-family: "Lato", sans-serif;
-    padding-bottom: 20px;
-    letter-spacing: 5px;
+    padding-bottom: 1.25rem;
+    letter-spacing: 0.3125rem;
 }
 
 
@@ -292,23 +284,23 @@ h4 {
 .mind-section {
     color: #5e696e; 
     font-family: "Lato", sans-serif;
-    padding-bottom: 20px;
-    letter-spacing: 5px;
+    padding-bottom: 1.25rem;
+    letter-spacing: 0.3125rem;
 }
 
 .body-section {
     color: #5e696e; 
     font-family: "Lato", sans-serif;
-    padding-bottom: 20px;
-    letter-spacing: 5px;
+    padding-bottom: 1.25rem;
+    letter-spacing: 0.3125rem;
 }
 
 h6 {
     font-family: "Lato", sans-serif;
     font-weight: bold;
-    letter-spacing: 2px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid;
+    letter-spacing: 0.125rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.125rem solid;
     border-bottom-color: rgba(214, 127, 87, 0.34);
 
 }
@@ -319,22 +311,22 @@ h6 {
 }
 
 hr{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
 }
 
 .mind-body-how-icon{
     color: #d67f57a2;
-    margin-left: 5px;
+    margin-left: 0.3125rem;
 }
 
 .mind-body-heading {
-    margin-bottom: 15px;
-    margin-top: 30px;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    margin-bottom: 0.9375rem;
+    margin-top: 1.875rem;
+    padding-top: 	3.125rem;
+    padding-bottom: 0.625rem;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 0.3125rem;
 }
 
 
@@ -345,12 +337,12 @@ hr{
 .section-content {
     font-family: "Nanum Gothic", sans-serif;
     font-size: 0.9375rem;
-    letter-spacing: 0px;
+    letter-spacing: 0rem;
 }
 
 #think-you-can-help {
     background-color: rgba(250, 255, 158, 0.51);
-   margin-top: 15px;
+   margin-top: 0.9375rem;
    text-align: center;
 }
 
@@ -358,20 +350,20 @@ hr{
 /* -------------------------Message Board */
 
 .messagebox {
-    border: 3px solid #919aa5;
+    border: 0.1875rem solid #919aa5;
     background-color: #f5f3f3;
-    border-radius: 3px;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: 5px 10px #a6c9f1;
+    border-radius: 0.1875rem;
+    padding: 0.625rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0.3125rem 0.625rem #a6c9f1;
    
 }
 
 .username {
     font-weight: bold;
     font-family: "Lato", sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
 }
 
 .comment {
@@ -386,16 +378,16 @@ hr{
 #comment-box {
     font-family: "Lato", sans-serif;
     color: #4f647d;
-    letter-spacing: 1px;
-    margin-top: 20px;
+    letter-spacing: 0.0625rem;
+    margin-top: 1.25rem;
     
 }
 
 
 /* -------------------------FAQs */
  #video-mind-active {
-     padding-top: 20px;
-    padding-bottom: 20px;
+     padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
  }
 
 
@@ -404,18 +396,18 @@ hr{
     font-family: "Nanum Gothic", sans-serif;
     font-size: 1.125rem;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     color: #4f647d;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .coronavirus-general {
     border-style: solid;
     border-color: #a6c9f1;
-    border-radius: 4px;
-    border-width: 1px;
-    margin-bottom: 40px;
-    box-shadow: 2px 2px #4f647d;
+    border-radius: 0.25rem;
+    border-width: 0.0625rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0.125rem 0.125rem #4f647d;
 }
 
 #coronavirus-heading {
@@ -427,10 +419,10 @@ hr{
 .mental-health-line {
     border-style: solid;
     border-color: #a6c9f1;
-    border-radius: 4px;
-    border-width: 1px;
-    margin-bottom: 40px;
-    box-shadow: 2px 2px #4f647d;
+    border-radius: 0.25rem;
+    border-width: 0.0625rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0.125rem 0.125rem #4f647d;
 }
 
 #health-line-heading {
@@ -442,10 +434,10 @@ hr{
 .volunteer {
     border-style: solid;
     border-color: #a6c9f1;
-    border-radius: 4px;
-    border-width: 1px;
-    margin-bottom: 40px;
-    box-shadow: 2px 2px #4f647d;
+    border-radius: 0.25rem;
+    border-width: 0.0625rem;
+    margin-bottom: 2.5rem;
+    box-shadow: 0.125rem 0.125rem #4f647d;
 }
 
 #volunteer-heading {
@@ -455,5 +447,5 @@ hr{
 }
 
 .link-info {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
