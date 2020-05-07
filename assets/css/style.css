@@ -88,9 +88,13 @@ h2 {
     text-transform: uppercase;
 }
 
-#logo {
+.navbar-brand {
     font-weight: 75;
     padding-left: 1.875rem;
+    font-family: "Lato";
+    color: #777777;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
 }
 
 #hero-image {
