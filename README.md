@@ -15,15 +15,19 @@ I chose a neutral colour scheme to maintain the acknowledgement of the serious n
 
 ###Features
 
-1) go through diff parts of proejcts and explain what they do
-2) breadcrumbs feature
+* The first section of the home page provides links to each section of the page, to direct the user to exactly what they are looking for. 
+* The bootstrap breadcrumbs feature eases navigation by showing the user at which page they are currently located.
+* The messageboard page provides a (currently static) feature which alows the user to find the answer to their exact question, had the answer not been provided on the website.
+* The accordion on the FAQ page allows the user to find an answer to their question by simple on-click dropdown, whilst hiding the rest of the information that may not be of interest to them.
+* The contact page provides a form for the user to fill it if they wish to get in contact. It also provides quick links to some useful websites that the user may want to seek more information from. 
+
 
 ####Features Left to Implement
 
-*in the future* I would like to add JavaScript to many aspects of my website, once I have developed the skill to. 
-For example, I would like to make the message board interactive to encourage user-input. 
-Further, I’d like to add JavaScript to the FAQ – smoothscroll drop down for answers. 
-Finally, I would add a ‘lockdown update’ page where there would be a live stream of updates regarding the lockdown, corona cases, and recommended courses of action. – more specific
+Going forward, I would like to add JavaScript to many aspects of my website, once I have developed the skill to do so. 
+For example, I would like to make the message board interactive to encourage user-interaction.
+I would also use JavaScript to implement a point-scoring function on the comments, whereby users have the ability to upvote or downvote a comment so that the most relevant comments appear first in the stream.
+Finally, I would add a ‘lockdown update’ page where there would be a live stream of updates regarding the lockdown, corona cases, and recommended courses of action.
 
 
 
@@ -55,7 +59,7 @@ All content in the "About Me/À Propos" and "Work/Travail" sections in this port
 2) contact form template by Bootstrapious
 
 ####Media
-The photo I used as a background image is from <link>Pexels</link> who provide a library of stock images 
+The photo I used as a background image is from <link>Pexels  who provide a library of stock images 
 
 ####Acknowledgements
 contact form template by Bootstrapious
