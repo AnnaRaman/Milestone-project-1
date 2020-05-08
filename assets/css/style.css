@@ -20,26 +20,6 @@ header {
     background-color: #fff;
 }
 
-.ui-menu-color-home {
-    background-color: #a6c9f1; 
-    color: #fff
-}
-
-.ui-menu-color-message-board {
-    background-color: #a6c9f1; 
-    color: #fff
-}
-
-.ui-menu-color-FAQs {
-    background-color: #a6c9f1; 
-    color: #fff;
-}
-
-.ui-menu-color-contact {
-    background-color: #a6c9f1; 
-    color: #fff
-}
-
 /* ------------------------special paddings/margins/text */
 
 h1,
@@ -362,6 +342,26 @@ hr{
      padding-top: 1.25rem;
     padding-bottom: 1.25rem;
  }
+
+ .faq-question {
+     font-family: "Nanum Gothic", sans-serif;
+ 
+ }
+
+.faq-answer {
+    font-family: "Lato", sans-serif;
+  
+    text-align: center;
+}
+
+
+.faq-source {
+    font-style: italic;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.075rem;
+    color: #839ab4;
+    text-align: right;
+}
 
 
 /* -------------------------contact */
