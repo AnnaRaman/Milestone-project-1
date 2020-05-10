@@ -75,7 +75,9 @@ Further, compatibility was achieved through running the website on Chrome, Firef
 
 ### Deployment
 
-This project has been deployed to Gitpages through enabling sharing and then deployment on Github **change
+This project has been deployed from the master branch to the hosting platform, GitPages. 
+To run locally, copy the following link into an editor: https://annaraman.github.io/Milestone-project-1/.
+
 
 ### Credits
 #### Content
