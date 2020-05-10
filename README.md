@@ -17,7 +17,11 @@ User Stories
 2. As a member of the public enduring the quarantine i want to find out about what other people are doing during the lockdown so that i can find a new hobby
 3. As a member of the public enduring the quarantine i want to find some details to enable me to volunteer and help those in need
 
-Wireframe: https://wireframe.cc/pro/pp/80b51b4f2341710 
+_Wireframes_
+ Home: https://wireframe.cc/pro/pp/80b51b4f2341710 
+ Message board: https://wireframe.cc/pro/pp/959ceb790341713
+ FAQs: https://wireframe.cc/pro/pp/c1d7d8770341714
+ Contact: https://wireframe.cc/pro/pp/db4f831aa341715
 
 ### Features
 
