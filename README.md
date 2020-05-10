@@ -55,11 +55,18 @@ in order to keep safe in the 'How can I help' section, and, in the FAQ. The mess
 satisfying user story 2.  The contact page provides a contact details for those users who are seeking information regarding volunteering opportunities, with an clickable features for the telephone numbers and email addresses, for ease.
 
 1. Contact form
+  i. Go to the 'Contact' page
+  ii. Leave a mandatory field empty, and you are promted to fill in the field
+  iii. Enter text in the 'email' box that is not a valid email address, you will be promted to input your correct address
+  iiii. Fill in all mandatory fields with an existing email address and the form submits.
 
-2) contact form scenario
-3) target_blank & links 
-4) faq work - hidden
-5) responsiveness and diff browsers
+All links provided on the webite have been coded with 'target="_blank"' so that that the user is able to maintain their position on the website, whilst exploring the link's destination in a new tab. 
+These have been tested and proven to work efficiently. The anchor tags surrounding the 'mind', 'body' and 'how can i help section' on the homepage, are fully cuntioning and allow the user to skip to their desired section.
+The accordion on the FAQ page functions as desired; once the user find the question they are looking for, the answer is presented via an on-click drop-down button.
+
+With thanks to Bootstrap's framework, the website has been tested and is successfully responsive to different screen sizes, and the elements on the page wrap accordingly and appropriatly.
+The tested mobbile devices were Iphone model 5 through to Iphone 8, Galaxy S5, pixel and pixel XL. A slight issue occurs on tablet-sized screens such as the ipad, as the videos in the 'body' section and 'how can I help' section are no-longer in perfect alignment, rather they one falls slightly lower than the other.
+Further, compatibility was achieved through running the website on Chrome, Firefox, Safari and Internet Explorer.
 
 
 ### Deployment
