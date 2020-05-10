@@ -171,34 +171,10 @@ h2 {
     height: 7.5rem;
 }
 
-/* -------------------------Footer */
-
-footer {
-    background-color: rgba(117, 153, 194, 0.79);
-    color: #fafafa;
-    max-height: 3.125rem;
-    margin:0;
-    text-align: center;
-    width: 66%;
-    position: center;
-}
-
-    
-
-.footer-title {
-    font-size: 0.625rem;
-    text-align: center;
-}
 
 
 
 
-/* ------------------------Back to top button*/
-
-.sticky-top{
-    position: sticky;
-    bottom: 0;
-}
 
 /* ------------------------Mind, Body, How can I help? */
 h4 {
@@ -412,4 +388,23 @@ hr{
 
 .link-info {
     padding-bottom: 2.5rem;
+}
+
+/* -------------------------Footer */
+
+footer {
+    background-color: rgba(117, 153, 194, 0.79);
+    color: #fafafa;
+    max-height: 3.125rem;
+    margin:0;
+    text-align: center;
+    width: 66%;
+    position: center;
+}
+
+    
+
+.footer-title {
+    font-size: 0.625rem;
+    text-align: center;
 }

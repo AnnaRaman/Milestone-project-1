@@ -93,6 +93,6 @@ The content in the answers on the FAQ page were copied from the following source
 The photo used as a background image was obtained from <a href="www.pexels.com/">Pexels</a> who provide a library of stock images. 
 
 #### Acknowledgements
-I took inspiration from <a>Bootstrapious</a> when producing the layout of my contact form. I styled and modified the form so it was fitting with my website.
+I took inspiration from <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form">Bootstrapious</a> when producing the layout of my contact form. I styled and modified the form so it was fitting with my website.
 
 
