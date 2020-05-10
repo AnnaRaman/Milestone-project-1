@@ -96,5 +96,6 @@ The photo used as a background image was obtained from <a href="www.pexels.com/"
 
 #### Acknowledgements
 I took inspiration from <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form">Bootstrapious</a> when producing the layout of my contact form. I styled and modified the form so it was fitting with my website.
+I used Bootstrap's features from its library to formulate and style my code, particularly with the Accordion feature on the FAQ page.
 
 
