@@ -1,6 +1,7 @@
 # Anna Raman – Quarantined Community
 Milestone Project 1: User-Centric Frontend Development – Code Institute
-This is my website on quarantining, which I have created with the aim of providing some support and resources for all members of the public currently enduring the lockdown. 
+
+<p>This is my website on quarantining, which I have created with the aim of providing some support and resources for all members of the public currently enduring the lockdown.</p>
 
 The website presents 3 areas of focus; the mind, body, what we can do to help. There is a message-board page which hopes to invite users to discuss their personal experiences/recommendations. 
 There is a frequently asked questions page which covers the most asked questions that members of the public have regarding the coronavirus and the quarantine. Finally, there is a contact page containing a contact form.
@@ -16,7 +17,7 @@ User Stories
 2. As a member of the public enduring the quarantine i want to find out about what other people are doing during the lockdown so that i can find a new hobby
 3. As a member of the public enduring the quarantine i want to find some details to enable me to volunteer and help those in need
 
-*add links to wireframes
+Wireframe: https://wireframe.cc/pro/pp/80b51b4f2341710 
 
 ### Features
 
@@ -86,7 +87,7 @@ The content in the answers on the FAQ page were copied from the following source
 
 
 #### Media
-The photo used as a background image was obtained from <a href="www.pexels.com/">Pexels</a>who provide a library of stock images. 
+The photo used as a background image was obtained from <a href="www.pexels.com/">Pexels</a> who provide a library of stock images. 
 
 #### Acknowledgements
 I took inspiration from <a>Bootstrapious</a> when producing the layout of my contact form. I styled and modified the form so it was fitting with my website.
