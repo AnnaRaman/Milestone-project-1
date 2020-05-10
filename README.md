@@ -11,6 +11,11 @@ There is a frequently asked questions page which covers the most asked questions
 My focus with the design was to facilitate the users search for what they are looking for; hence, the simplistic and minimalist layout of the website. 
 I chose a neutral colour scheme to maintain the acknowledgement of the serious nature of the lockdown, whilst making scrolling through the website as aesthetically pleasing to as many people as possible.
 
+User Stories
+1. As a member of the public enduring the quarantine i want to seek some advice so i know what i should be doing to keep safe
+2. As a member of the public enduring the quarantine i want to find out about what other people are doing during the lockdown so that i can find a new hobby
+3. As a member of the public enduring the quarantine i want to find some details to enable me to volunteer and help those in need
+
 *add links to wireframes
 
 ### Features
@@ -33,6 +38,7 @@ For example:
 
 
 ### Technologies
+
 1.	HTML5
 2.	CSS
 3.	Bootstrap (4.4.1)
@@ -41,19 +47,28 @@ For example:
 
 
 ### Testing
-Convince assessor that I have done enoguh testing
-e.g. if invalid email address, is there an error code? All required fields have been filled in? – contact us page and message board page
 
-How the project workds on different browsers and screen sizes
--- target=_blank
-contact form - required feilds
-Mention any bugs / problems you encountered 
+The testing process intended to ensure that website was fulfilling the needs of the user. 
+After running through the entire website checking links, anchors, the contactn form, website compatibility and responsiveness, it is deducible that it functions as intended.
+The user stories mentinoned in the UX section have been tested and proven success. The home page provides the relevant information for the user to gain an understanding of how best to behave 
+in order to keep safe in the 'How can I help' section, and, in the FAQ. The messageobard page provides a platform of communication between users, allowing them to share stories and experiences,
+satisfying user story 2.  The contact page provides a contact details for those users who are seeking information regarding volunteering opportunities, with an clickable features for the telephone numbers and email addresses, for ease.
+
+1. Contact form
+
+2) contact form scenario
+3) target_blank & links 
+4) faq work - hidden
+5) responsiveness and diff browsers
+
 
 ### Deployment
+
 This project has been deployed to Gitpages through enabling sharing and then deploment on Github **change
 
 ### Credits
 #### Content
+
 The content in the answers on the FAQ page were copied from the following sources:
 * <a href="www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses" >The World Health Organisation</a>
 * <a href="www.bbc.co.uk/news/health-52183295">BBC</a>
@@ -69,4 +84,4 @@ The photo used as a background image was obtained from <a href="www.pexels.com/"
 #### Acknowledgements
 I took inspiration from <a>Bootstrapious</a> when producing the layout of my contact form. I styled and modified the form so it was fitting with my website.
 
-
+I took inspiration from <a>Bootstrapious</a> when producing the layout of my FAQ accordion. I styled and modified the form so it was fitting with my website.
